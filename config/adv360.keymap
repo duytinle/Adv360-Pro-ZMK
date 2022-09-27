@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
-    &kp B     &kp F1   &kp F2    &kp F3   &kp F4  &kp F5                &tog 3   &mo 0  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
- &kp HOME     &trans    &kp Y     &kp E    &kp R   &kp L            &kp DELETE   &none  &trans  &trans  &trans  &trans   &trans  &kp F12
-  &kp END  &kp COMMA  &kp DOT     &kp J    &kp F   &kp U              &kp PIPE  &trans  &trans                  &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
-      &kp     &trans   &trans    &kp N8    &kp I   &kp B                 &none   &none  &trans   &none   &none  &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
-   &trans     &trans   &trans  &kp HOME  &kp END  &trans                &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans  &trans  &trans
+&kp LA(LG(B))    &kp F1              &kp F2      &kp F3   &kp F4  &kp F5                &tog 3   &mo 0  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&kp LC(LS(HOME)) &trans            &kp LC(Y)     &kp LC(E)    &kp LC(R)   &kp LC(L)            &kp DELETE   &none  &trans  &trans  &trans  &trans   &trans  &kp F12
+&kp LC(LS(END))  &kp LC(LS(COMMA))  &kp LC(LS(DOT))     &kp LC(J)    &kp LA(LC(F))   &kp LC(U)              &kp PIPE  &trans  &trans                  &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
+      &kp     &trans                 &trans    &kp N8    &kp LC(I)   &kp LC(B)                 &none   &none  &trans   &none   &none  &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
+   &trans     &trans                 &trans  &kp LC(HOME)  &kp LC(END)  &trans                &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans  &trans  &trans
             >;
         };
 
