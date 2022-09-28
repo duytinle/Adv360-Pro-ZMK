@@ -43,7 +43,7 @@
             &kp TAB       &kp Q        &kp W     &kp E      &kp R     &kp T                    &kp COLON  &kp LC(Z)         &kp Y      &kp U      &kp I    &kp O      &kp P      &kp BSLH
  &mt LCTRL CAPSLOCK       &kp A        &kp S     &kp D      &kp F     &kp G            &kp DOUBLE_QUOTES       &mo 2         &mo 1                       &kp LA(Z)  &mt LEFT_CONTROL LA(B)  &kp QUESTION     &kp H      &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
           &kp LSHFT       &kp Z        &kp X     &kp C      &kp V     &kp B                        &none       &none  &mt LALT HOME     &none      &none  &kp LC(LS(ESC)) &none      &none     &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-   &kp LC(LS(V))      &kp LC(C)     &kp LC(V)  &kp LEFT  &kp RIGHT  &kp BSPC                      &kp DEL   &kp LC(X)     &mo 3 &kp ENTER  &kp SPACE   &kp LEFT   &kp UP      &kp DOWN  &kp RIGHT  &kp ENTER
+   &kp LC(LS(V))      &kp LC(C)     &kp LC(V)  &kp LEFT  &kp RIGHT  &kp BSPC                      &kp DEL   &mt LC(X) END     &mo 3 &kp ENTER  &kp SPACE   &kp LEFT   &kp UP      &kp DOWN  &kp RIGHT  &kp ENTER
             >;
         };
 
