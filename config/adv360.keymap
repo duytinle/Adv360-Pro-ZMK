@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
-     &kp LG(LA(B))             &kp F1           &kp F2          &kp F3         &kp F4     &kp F5            &tog 3   &mo 0  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
- &kp LG(LC(LS(B)))             &trans        &kp LC(Y)       &kp LC(E)      &kp LC(R)  &kp LC(L)             &none   &none  &trans  &trans  &trans  &trans   &trans  &kp F12
-  &kp LC(LS(HOME))  &kp LC(LS(COMMA))  &kp LC(LS(DOT))       &kp LC(J)  &kp LA(LC(F))  &kp LC(U)             &none  &trans  &trans                  &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
-   &kp LC(LS(END))             &trans           &trans  &kp LC(LS(N8))      &kp LC(I)  &kp LC(B)             &none   &none  &trans   &none   &none  &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
-            &trans             &trans           &trans        &kp HOME        &kp END     &trans            &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans  &trans  &trans
+     &kp LG(LA(B))             &kp F1           &kp F2          &kp F3         &kp F4     &kp F5                      &tog 3   &mo 0  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+ &kp LG(LC(LS(B)))             &trans        &kp LC(Y)       &kp LC(E)      &kp LC(R)  &kp LC(L)            &kp LC(LS(HOME))   &none  &trans  &trans  &trans  &trans   &trans  &kp F12
+             &none  &kp LC(LS(COMMA))  &kp LC(LS(DOT))       &kp LC(J)  &kp LA(LC(F))  &kp LC(U)             &kp LC(LS(END))  &trans  &trans                  &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
+         &kp LSHFT             &trans           &trans  &kp LC(LS(N8))      &kp LC(I)  &kp LC(B)                       &none   &none  &trans   &none   &none  &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
+            &trans             &trans           &trans        &kp HOME        &kp END     &trans                      &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans  &trans  &trans
             >;
         };
 
