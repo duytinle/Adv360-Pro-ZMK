@@ -59,8 +59,8 @@
 
         layer_fn {
             bindings = <
-     &kp LG(LA(B))             &kp F1           &kp F2            &kp F3             &kp F4     &kp F5                 &tog 3   &mo 0  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
- &kp LG(LC(LS(B)))             &trans        &kp LC(Y)         &kp LC(E)          &kp LC(R)  &kp LC(L)                  &none   &none  &trans  &trans  &trans  &trans   &trans  &kp F12
+     &kp LG(LA(B))             &kp F1           &kp F2            &kp F3             &kp F4     &kp F5                  &none   &none  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+ &kp LG(LC(LS(B)))             &trans        &kp LC(Y)         &kp LC(E)          &kp LC(R)  &kp LC(L)             &kp LS(F3)   &none  &trans  &trans  &trans  &trans   &trans  &kp F12
        &kp LC(TAB)  &kp LC(LS(COMMA))  &kp LC(LS(DOT))         &kp LC(J)      &kp LA(LC(F))  &kp LC(U)            &kp LC(TAB)  &trans  &trans                  &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
          &kp LSHFT             &trans           &trans    &kp LC(LS(N8))          &kp LC(I)  &kp LC(B)                  &none   &none  &trans   &none   &none  &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
             &trans          &kp PIPE2         &kp PIPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &trans                 &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans  &trans  &trans
