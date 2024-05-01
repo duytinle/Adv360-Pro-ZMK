@@ -14,13 +14,18 @@
             compatible = "zmk,behavior-macro";
             label = "macro_version";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
+            bindings =
+                <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>,
+                <&macro_tap>;
         };
 
         macro_Parenthesis: macro_Parenthesis {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
+            bindings =
+                <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>,
+                <&macro_tap>;
+
             label = "MACRO_PARENTHESIS";
         };
 
