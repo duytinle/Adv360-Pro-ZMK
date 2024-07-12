@@ -73,7 +73,7 @@
 &kp LG(LA(B))          &kp F1              &kp F2           &kp F3                 &kp F4                    &kp F5     &kp PRINTSCREEN                                      &none   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
 &kp LS(LC(LG(B)))      &trans              &kp LC(Y)        &kp LC(E)              &kp LC(R)                 &kp LC(L)  &kp LS(F3)                                           &none   &trans  &trans  &trans  &trans  &trans   &kp F12
 &trans                 &kp LS(LC(COMMA))   &kp LS(LC(DOT))  &kp LC(J)              &kp LA(LC(F))             &kp LC(U)  &kp LC(TAB)      &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans  &trans   &trans
-&trans                 &trans              &kp LA(N5)       &kp LS(LC(N8))         &kp LC(I)                 &kp LC(B)                           &trans      &trans                  &trans  &trans  &trans  &trans  &trans   &trans
+&kp LA(LC(S))          &kp LS(F5)          &kp LA(N5)       &kp LS(LC(N8))         &kp LC(I)                 &kp LC(B)                           &trans      &trans                  &trans  &trans  &trans  &trans  &trans   &trans
 &macro_SquareBrackets  &macro_Parenthesis  &kp PIPE         &kp LC(LS(LESS_THAN))  &kp LC(LS(GREATER_THAN))             &trans           &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans   &trans
             >;
         };
