@@ -29,7 +29,7 @@
         BoldItalic: BoldItalic {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(B) &kp LC(I)>;
+            bindings = <&kp LC(B) &kp LC(I) &kp RIGHT_ARROW>;
             label = "BOLDITALIC";
         };
 
@@ -59,7 +59,7 @@
 &kp LG(LA(B))      &kp N1                &kp N2                &kp N3                &kp N4                &kp N5          &kp LS(LC(N8))                                                &none      &none  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
 &kp LG(LC(LS(B)))  &none                 &none                 &none                 &none                 &none           &kp LS(LC(N7))                                                &none      &none  &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
 &none              &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp LS(LC(NUMBER_4))  &kp LS(LC(N5))  &kp LS(LC(NUMBER_6))  &none  &none      &kp LGUI   &kp RCTRL  &none      &none  &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
-&kp LSHFT          &none                 &none                 &none                 &Brackets             &BoldItalic                                  &none      &kp PG_UP                        &none  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
+&kp LSHFT          &none                 &none                 &none                 &kp PAGE_UP           &kp PAGE_DOWN                                &none      &kp PG_UP                        &none  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
 &kp LC(LS(D))      &none                 &none                 &kp LS(LC(HOME))      &kp LS(LC(END))                       &none                 &none  &none      &kp PG_DN  &kp ENTER  &kp KP_N0         &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &none
             >;
         };
@@ -69,7 +69,7 @@
 &kp LG(LA(B))            &kp F1                          &kp F2           &kp F3                 &kp F4                    &kp F5       &kp PRINTSCREEN                                              &none   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
 &kp LS(LC(LG(B)))        &kp PRINTSCREEN                 &kp LC(Y)        &kp LC(E)              &kp LC(R)                 &kp LC(L)    &kp LS(F3)                                                   &none   &trans  &trans  &trans  &trans  &trans   &kp F12
 &kp LS(LA(PRINTSCREEN))  &kp LS(LC(COMMA))               &kp LS(LC(DOT))  &kp LC(J)              &kp LA(LC(F))             &BoldItalic  &kp LC(TAB)      &trans  &trans      &BoldItalic  &Brackets  &none   &trans  &trans  &trans  &trans  &trans   &trans
-&kp LA(LC(S))            &kp LS(F5)                      &kp LA(N5)       &kp LS(LC(N8))         &kp LC(I)                 &kp LC(B)                             &trans      &kp END                         &trans  &trans  &trans  &trans  &trans   &trans
+&kp LA(LC(S))            &kp LS(F5)                      &kp LA(N5)       &kp LS(LC(N8))         &kp LC(I)                 &kp LC(B)                             &trans      &none                           &trans  &trans  &trans  &trans  &trans   &trans
 &Brackets                &mt RIGHT_BRACKET LEFT_BRACKET  &kp PIPE         &kp LC(LS(LESS_THAN))  &kp LC(LS(GREATER_THAN))               &trans           &trans  &trans      &trans       &trans     &trans          &trans  &trans  &trans  &trans   &trans
             >;
         };
