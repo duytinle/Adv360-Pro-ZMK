@@ -25,6 +25,15 @@
         };
     };
 
+    macros {
+        BoldItalic: BoldItalic {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp LC(I)>;
+            label = "BOLDITALIC";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
