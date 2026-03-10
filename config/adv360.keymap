@@ -39,6 +39,13 @@
             bindings = <&kp LBKT &kp RBKT &kp LEFT_ARROW>;
             label = "BRACKETS";
         };
+
+        Parenthesis: Paranthesis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
+            label = "PARANTHESIS";
+        };
     };
 
     keymap {
@@ -66,11 +73,11 @@
 
         fn {
             bindings = <
-&kp LG(LA(B))            &kp F1                          &kp F2           &kp F3                 &kp F4                    &kp F5       &kp PRINTSCREEN                                              &none   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&kp LS(LC(LG(B)))        &kp PRINTSCREEN                 &kp LC(Y)        &kp LC(E)              &kp LC(R)                 &kp LC(L)    &kp LS(F3)                                                   &none   &trans  &trans  &trans  &trans  &trans   &kp F12
-&kp LS(LA(PRINTSCREEN))  &kp LS(LC(COMMA))               &kp LS(LC(DOT))  &kp LC(J)              &kp LA(LC(F))             &BoldItalic  &kp LC(TAB)      &trans  &trans      &BoldItalic  &Brackets  &none   &trans  &trans  &trans  &trans  &trans   &trans
-&kp LA(LC(S))            &kp LS(F5)                      &kp LA(N5)       &kp LS(LC(N8))         &kp LC(I)                 &kp LC(B)                             &trans      &none                           &trans  &trans  &trans  &trans  &trans   &trans
-&Brackets                &mt RIGHT_BRACKET LEFT_BRACKET  &kp PIPE         &kp LC(LS(LESS_THAN))  &kp LC(LS(GREATER_THAN))               &trans           &trans  &trans      &trans       &trans     &trans          &trans  &trans  &trans  &trans   &trans
+&kp LG(LA(B))            &kp F1                          &kp F2           &kp F3                 &kp F4                    &kp F5     &kp PRINTSCREEN                                              &none   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&kp LS(LC(LG(B)))        &kp PRINTSCREEN                 &kp LC(Y)        &kp LC(E)              &kp LC(R)                 &kp LC(L)  &kp LS(F3)                                                   &none   &trans  &trans  &trans  &trans  &trans   &kp F12
+&kp LS(LA(PRINTSCREEN))  &kp LS(LC(COMMA))               &kp LS(LC(DOT))  &kp LC(J)              &kp LA(LC(F))             &Brackets  &BoldItalic      &trans  &trans      &BoldItalic  &Brackets  &none   &trans  &trans  &trans  &trans  &trans   &trans
+&kp LA(LC(S))            &kp LS(F5)                      &kp LA(N5)       &kp LS(LC(N8))         &kp LC(I)                 &kp LC(B)                           &trans      &none                           &trans  &trans  &trans  &trans  &trans   &trans
+&Parenthesis             &mt RIGHT_BRACKET LEFT_BRACKET  &kp PIPE         &kp LC(LS(LESS_THAN))  &kp LC(LS(GREATER_THAN))             &trans           &trans  &trans      &trans       &trans     &trans          &trans  &trans  &trans  &trans   &trans
             >;
         };
 
